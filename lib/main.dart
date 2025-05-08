@@ -46,14 +46,17 @@ class _PackageAState extends State<PackageA> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[const Text('This is package A')],
+          children: <Widget>[
+            const Text('This is package A'),
+            TextButton(onPressed: goTo, child: Text('Go To B')),
+          ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: goTo,
-        tooltip: 'Go',
-        child: const Icon(Icons.add),
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   onPressed: goTo,
+      //   tooltip: 'Go',
+      //   child: const Icon(Icons.add),
+      // ),
     );
   }
 }

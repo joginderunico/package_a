@@ -144,8 +144,17 @@ packages:
     description:
       path: "."
       ref: main
-      resolved-ref: "04b59fa40967597beffb0f087dc1ac4f281a9310"
+      resolved-ref: ff986887e19eb2ecd7a429124058b290b58ae58c
       url: "https://github.com/joginderunico/package_b"
+    source: git
+    version: "1.0.0+1"
+  package_c:
+    dependency: transitive
+    description:
+      path: "."
+      ref: main
+      resolved-ref: c2f183fbda2b8e1c27f8b81d3224b3fa0ca73b97
+      url: "https://github.com/joginderunico/package_c"
     source: git
     version: "1.0.0+1"
   path:
